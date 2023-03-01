@@ -1,0 +1,166 @@
+body {
+  background-color: whitesmoke;
+}
+
+.category:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.category {
+  margin: 1em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: #ffd07f;
+  padding: 1em;
+  border-radius: 1em;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.category .category-inner {
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+}
+
+.current-category {
+  width: 100%;
+  background-color: #ffd07f;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+.advert-list-item:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.advert-list-item {
+  background-color: lightgrey;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 10px;
+}
+
+.advert-list-item img {
+  width: 250px;
+  height: 250px;
+}
+
+.advert-list-item .ad-list-price {
+  font-size: x-large;
+  font-weight: bold;
+  color: orange;
+}
+
+.other-categories:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.other-categories {
+  width: 30%;
+  background-color: grey;
+  padding: 1em;
+  margin: 1em;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.advert-page img {
+  height: 300px;
+}
+
+.advert-page .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.advert-page .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.banner {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffd07f;
+  height: 120px;
+}
+
+.user-info a,
+.user-info span {
+  font-weight: bold;
+}
+
+.advert-profile-item {
+  background-color: lightgrey;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 0.25em;
+  border-radius: 10px;
+}
+
+.advert-profile-item img {
+  width: 250px;
+  height: 250px;
+}
+
+.advert-profile-item .ad-list-price {
+  font-size: x-large;
+  font-weight: bold;
+  color: orange;
+}
+
+.ad-profile-info {
+  border: solid lightgrey 1px;
+  border-radius: 5px;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.ad-profile-info h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: orange;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.ad-profile-info p {
+  font-weight: bold;
+}
+
+.ad-profile-info .money {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=styles.css.map */
